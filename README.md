@@ -133,7 +133,7 @@ Class balancing significantly improved recall for minority classes. \
 ---
 ## Installation
 To run the project locally:\
-git clone https://github.com/dustinlit/wildfire-severity.git \
+git clone https://github.com/dustinlit/California_fire_severity.git \
 cd wildfire-severity\
 pip install -r requirements.txt
 
