@@ -45,23 +45,24 @@ Example output:\
 - Created rolling averages for environmental variables.
 - Engineered interaction features (e.g., Dryness, ETo_x_Vapor_Pressure).
 - Imputed missing values for stations and derived features.
-#### Key Features Used:
-**Environmental / Weather Variables**
-- `Avg Air Temp (F) 7 Day Avg` – Average air temperature over the past 7 days (°F); represents heat conditions.
-- `Avg Vap Pres (mBars)` – Average vapor pressure; indicates atmospheric moisture.
-- `Avg Rel Hum (%) 7 Day Avg` – Average relative humidity over 7 days; affects fire ignition and spread.
-- `Avg Wind Speed (mph) 7 Day Avg` – Average wind speed; higher speeds can drive fire spread.
-- `Precip (in) 7 Day Avg` – Total precipitation in the past 7 days; influences fuel moisture.
-- `ETo (in)` – Reference evapotranspiration; approximates water loss from soil and plants.
 \
-**Derived / Interaction Features**
-- `ETo_x_Vapor_Pressure` – Interaction between evapotranspiration and vapor pressure; models combined dryness effects.
-- `ETo_x_Temp` – Interaction between evapotranspiration and air temperature; highlights hot, dry conditions.
-- `Vapor_Pressure_x_Temp` – Interaction capturing the combined effect of heat and moisture.
-- `Vapor_Pressure_x_Wind_Speed` – Interaction between wind and atmospheric moisture; affects drying conditions.
-\
-**Composite Index**
-- `Dryness` – Custom dryness proxy combining weather variables; designed to approximate vegetation or fuel dryness.
+### Key Features Used:
+- **Environmental / Weather Variables**
+  - `Avg Air Temp (F) 7 Day Avg` – Average air temperature over the past 7 days (°F); represents heat conditions.
+  - `Avg Vap Pres (mBars)` – Average vapor pressure; indicates atmospheric moisture.
+  - `Avg Rel Hum (%) 7 Day Avg` – Average relative humidity over 7 days; affects fire ignition and spread.
+  - `Avg Wind Speed (mph) 7 Day Avg` – Average wind speed; higher speeds can drive fire spread.
+  - `Precip (in) 7 Day Avg` – Total precipitation in the past 7 days; influences fuel moisture.
+  - `ETo (in)` – Reference evapotranspiration; approximates water loss from soil and plants.
+<br><br>
+- **Derived / Interaction Features**
+  - `ETo_x_Vapor_Pressure` – Interaction between evapotranspiration and vapor pressure; models combined dryness effects.
+  - `ETo_x_Temp` – Interaction between evapotranspiration and air temperature; highlights hot, dry conditions.
+  - `Vapor_Pressure_x_Temp` – Interaction capturing the combined effect of heat and moisture.
+  - `Vapor_Pressure_x_Wind_Speed` – Interaction between wind and atmospheric moisture; affects drying conditions.
+<br><br>
+- **Composite Index**
+  - `Dryness` – Custom dryness proxy combining weather variables; designed to approximate vegetation or fuel dryness.
 
 ---
 ## Class Balancing
