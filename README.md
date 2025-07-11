@@ -115,6 +115,9 @@ Models struggled with distinguishing Moderate and High severity classes.\
 KNN achieved the highest F1-score overall.\
 Class balancing significantly improved recall for minority classes. \
 \
+**Key Metrics:**
+<br><br>
+
 <img src="plots/sampling_metrics.png" alt="Southern California Wildfire Model Predictions" width="400" style="display: block; margin-left: 0;" />
 
 ---
