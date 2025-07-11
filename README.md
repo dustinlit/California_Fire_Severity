@@ -112,7 +112,7 @@ Example Output:\
 
 **Key Findings:** \
 Models struggled with distinguishing Moderate and High severity classes.\
-KNN achieved the highest F1-score overall.\
+XGBoost achieved the highest performance overall.\
 Class balancing significantly improved recall for minority classes. \
 \
 **Key Metrics:**
