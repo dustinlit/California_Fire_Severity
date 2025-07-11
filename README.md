@@ -42,7 +42,7 @@ Example output:\
 ## Data Processing
 *Located in: notebooks/data_processing.ipynb*
 - Merged fire records with weather station summaries by location and time.
-- Created rolling averages for environmental variables.
+- Created rolling 7-day averages for environmental variables.
 - Engineered interaction features (e.g., Dryness, ETo_x_Vapor_Pressure).
 - Imputed missing values for stations and derived features.
 \
@@ -128,9 +128,8 @@ Class balancing significantly improved recall for minority classes. \
 
 ---
 ## Next Steps / Potential Improvements
-- Add land cover, topography, and WUI datasets.
-- Integrate population density and elevation.
-- Incorporate days since ignition as a time-based feature.
+- Expand main weather dataset and add land cover, topography, and WUI datasets.
+- Deeper geographical analysis incorporating slope, aspect, and vegetation
 - Try temporal or ensemble models.
 - Consult domain experts to validate assumptions and feature selection.
 
