@@ -26,7 +26,7 @@ Example output:\
   
 ---
 
-## Project Structure\
+## Project Structure
 
 ![File Structure](plots/file_structure.png)
 
