@@ -45,7 +45,7 @@ Example output:\
 - Created rolling averages for environmental variables.
 - Engineered interaction features (e.g., Dryness, ETo_x_Vapor_Pressure).
 - Imputed missing values for stations and derived features.
-#### Key Features Used:\
+#### Key Features Used:
 **Environmental / Weather Variables**
 - `Avg Air Temp (F) 7 Day Avg` – Average air temperature over the past 7 days (°F); represents heat conditions.
 - `Avg Vap Pres (mBars)` – Average vapor pressure; indicates atmospheric moisture.
