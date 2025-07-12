@@ -40,8 +40,15 @@ def create_2nd_degree_interactions(df):
 
     return pd.DataFrame(interactions, index=df.index)
 
-
 def calculate_dryness_index(df):
+    """
+
+    Parameters:
+    
+
+    Returns:
+    
+    """
     # Work on a copy of the input DataFrame
     df_copy = df.copy()
     
@@ -80,12 +87,28 @@ def impute_median_data(dataframe):
     return df
 
 def data_explore(df):
+    """
+
+    Parameters:
+    
+
+    Returns:
+    
+    """
     print('Duplicates before dropping: ', df.duplicated().sum(), '\n')
     df = df.drop_duplicates()
     df.info()
     return df
 
 def post_merge_check (merged_df, premerged_df):
+    """
+
+    Parameters:
+    
+
+    Returns:
+    
+    """
     
     print("Duplicate Keys: ", merged_df[['Date','Stn Id']].duplicated().sum()) 
     print("Premerged shape: ", premerged_df.shape)
