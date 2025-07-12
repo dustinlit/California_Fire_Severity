@@ -41,6 +41,7 @@ def create_2nd_degree_interactions(df):
     return pd.DataFrame(interactions, index=df.index)
 
 def calculate_dryness_index(df):
+    
     """
 
     Parameters:
@@ -54,9 +55,6 @@ def calculate_dryness_index(df):
     
     # Define features and scale them (if needed elsewhere)
     features = ['Avg Air Temp (F)', 'Avg Wind Speed (mph)', 'Sol Rad (Ly/day)', 'Avg Rel Hum (%)','Precip (in)']
-    
-    scaler = StandardScaler()
-    _ = scaler.fit_transform(df_copy[features])  # optional, not used in this function
 
     # Calculate PET proxy and Dryness on the copy
     df['PET_proxy'] = (
