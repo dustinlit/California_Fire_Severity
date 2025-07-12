@@ -17,6 +17,12 @@ import matplotlib as mpl
 # load shapefile of california
 counties_gdf = gpd.read_file('../data/raw/CA_Counties.shp').to_crs(epsg=4326)
 
+def individual_plot_map():
+    return
+
+def mutliple_interpolated_maps():
+    return
+
 def interpolate_idw(
     gdf_points: gpd.GeoDataFrame,
     value_column: str,
@@ -244,13 +250,13 @@ def plot_map(gdf, gdf_column, firename, ax=None):
 
 def grid_kde(df):
     # Configuration
-    plots_per_col = 2  # 2 plots vertically stacked per column
+    plots_per_col = 3  # 2 plots vertically stacked per column
     num_plots = len(df.columns)
     cols = math.ceil(num_plots / plots_per_col)
     rows = plots_per_col
 
     # Create subplots with wider width (for multiple columns)
-    fig, axes = plt.subplots(rows, cols, figsize=(5 * cols, 4 * rows))
+    fig, axes = plt.subplots(rows, cols, figsize=(4 * cols, 3 * rows))
     axes = axes.flatten()
 
     sns.set(style="whitegrid")
