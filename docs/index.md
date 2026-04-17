@@ -9,7 +9,7 @@ layout: default
 [![Repository](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling)
 
 **Author:** Dustin Littlefield  
-**Portfolio:** https://github.com/dustinlit  
+**Portfolio:** [GitHub Portfolio](https://github.com/dustinlit)\
 **Project Type:** `Spatial Data Science` `Remote Sensing` `Wildfire Analysis`  
 **Technologies:** `Python` `ArcGIS` `GeoPandas` `Scikit-learn` `XGBoost`  
 **Last Updated:** March 2026
