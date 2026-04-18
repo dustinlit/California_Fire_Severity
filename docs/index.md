@@ -20,7 +20,13 @@ A machine learning analysis to predict wildfire ignition risk in California usin
 **Tools:** Python, scikit‑learn, Pandas, Rasterio, ArcGIS Pro\
 **Focus:** Wildfire ignition, ML modeling, environmental analytics, Spatial analytics, Time Series
 
-<figure> <img src="reports/plots/wildfires.png"  alt="A description" width="800"> <figcaption><em>Figure 1: Damaging wildfires in California 01/01/2018 to 01/23/2025</em></figcaption> </figure>
+
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 1.</strong> Damaging wildfires in California 01/01/2018 to 01/23/2025
+  </figcaption>
+  <img src="reports/plots/wildfires.png" width="500" alt="">
+</figure>
 
 ## Data
 
@@ -79,21 +85,33 @@ A machine learning analysis to predict wildfire ignition risk in California usin
 - the models are quite good at reliably identifying **low‑risk** grids, largely because the patterns associated with 'no wildfire activity' are abundant, consistent, and easy for algorithms to learn.
 - XGBoost currently overfitting the target value.
 
-<figure> <img src="reports/readme/ignition_evaluation.png" alt="A description" width="800"> <figcaption><em>Figure 5: Model metrics of test set</em></figcaption> </figure>
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Table 1.</strong> Model metrics of test set
+  </figcaption>
+  <img src="reports/readme/ignition_evaluation.png" width="500" alt="">
+</figure>
 
-- The models largely reinforce the common view of wildfire causes. 
-  - **Population density** in wildland intermix zones are the top drivers of the XGB wildfire ignition model. 
-  - Overall, the intersection of **human habitation** and **infrastructure** with **dense forests** weigh heavily in all models. Notably in areas where there are both dense **power lines** and **roads**. 
+
   - Indicators of *drought* and *dry fuel materials* are the leading drivers among environmental factors.
 
-<figure> <img src="reports/readme/top_5_weather.png" alt="A description" width="800"> <figcaption><em>Figure 2: Top 5 contributing weather features</em></figcaption> </figure>
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Table 2.</strong> Top 5 contributing weather features
+  </figcaption>
+  <img src="reports/readme/top_5_weather.png" width="500" alt="">
+</figure>
 
-## SHAP Feature Influence
-*Located in:* 
-> - [*notebooks/08_B_Fire_Ignition_Feature_Ablation.ipynb*](https://github.com/dustinlit/California_Fire_Severity/blob/main/notebooks/08_B_Fire_Ignition_Feature_Ablation.ipynb)
 
-<figure> <img src="reports/readme/ignition_features.png" alt="A description" width="600"> <figcaption><em>Figure 6: Top feature importance rankings by model</em></figcaption> </figure>
+  - **Population density** in wildland intermix zones are the top drivers of the XGB wildfire ignition model. 
+  - Overall, the intersection of **human habitation** and **infrastructure** with **dense forests** weigh heavily in all models. Notably in areas where there are both dense **power lines** and **roads**. 
 
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Table 3.</strong> Top SHAP feature importance rankings by model
+  </figcaption>
+  <img src="reports/readme/ignition_features.png" width="500" alt="">
+</figure>
 
 ## Case Study Visualization
 
@@ -101,8 +119,6 @@ A machine learning analysis to predict wildfire ignition risk in California usin
 
 <figure> <img src="reports/readme/ignition_predictions.png" alt="A description" width="1000"> <figcaption><em>Figure 7: Tree model wildfire ignition predictions compared to target results on 01/07/2025</em></figcaption> </figure><br>
 
-- The intersection of **Wildland Urban Interface** and **Infrastructure** features contribute the most in both fire ignition models.
-- **1000-hour Dead Fuel Moisture** is the highest performing weather feature. Long 
 ## Project Structure
 
 <ul>
@@ -171,48 +187,6 @@ A machine learning analysis to predict wildfire ignition risk in California usin
   </li>
 </ul>
 
-
-**Data Exploration and Processing:**
-> - [*notebooks/01_Data_Exploration.ipynb*](https://github.com/dustinlit/California_Fire_Severity/blob/main/notebooks/01_Data_Exploration.ipynb)
-> - [*notebooks/02_A_Weather_Data_Merging.ipynb*](https://github.com/dustinlit/California_Fire_Severity/blob/main/notebooks/02_A_Weather_Data_Merging.ipynb)
-> - [*notebooks/02_B_Spatial_Join_Reservoirs.ipynb*](https://github.com/dustinlit/California_Fire_Severity/blob/main/notebooks/02_B_Spatial_Join_Reservoirs.ipynb)
-> - [*notebooks/02_C_Spatial_Join_Fire_Data.ipynb*](https://github.com/dustinlit/California_Fire_Severity/blob/main/notebooks/02_C_Spatial_Join_Fire_Data.ipynb)
-
-
-
-
-
-
-
-
-
-
-## Model Metrics
-*Located in:* 
-> - [*notebooks/08_A_Fire_Ignition.ipynb*](https://github.com/dustinlit/California_Fire_Severity/blob/main/notebooks/08_A_Fire_Ignition.ipynb)
-
-**Key Findings:** 
-- the models are quite good at reliably identifying **low‑risk** grids, largely because the patterns associated with 'no wildfire activity' are abundant, consistent, and easy for algorithms to learn.
-- XGBoost currently overfitting the target value.
-
-<figure> <img src="reports/readme/ignition_evaluation.png" alt="A description" width="800"> <figcaption><em>Figure 5: Model metrics of test set</em></figcaption> </figure>
-
-## SHAP Feature Influence
-*Located in:* 
-> - [*notebooks/08_B_Fire_Ignition_Feature_Ablation.ipynb*](https://github.com/dustinlit/California_Fire_Severity/blob/main/notebooks/08_B_Fire_Ignition_Feature_Ablation.ipynb)
-
-<figure> <img src="reports/readme/ignition_features.png" alt="A description" width="600"> <figcaption><em>Figure 6: Top feature importance rankings by model</em></figcaption> </figure>
-
-
-## Case Study Visualization
-
-### **Wildfire *Ignition* Predictions:**
-
-<figure> <img src="reports/readme/ignition_predictions.png" alt="A description" width="1000"> <figcaption><em>Figure 7: Tree model wildfire ignition predictions compared to target results on 01/07/2025</em></figcaption> </figure><br>
-
-- The intersection of **Wildland Urban Interface** and **Infrastructure** features contribute the most in both fire ignition models.
-- **1000-hour Dead Fuel Moisture** is the highest performing weather feature. Long term dryness is the main driving factor for ignition.
-
 ## Next Steps / Potential Improvements
 - Hot Spot analysis of daily NDVI raster data (in process)
 - Spatial correlation examination with Morans I. (in process)
@@ -236,11 +210,6 @@ I chalk this lesson up to being a classic rookie mistake. I initially believed I
 This project began as a simple Jupyter notebook page, soon expanded to five, and has now grown into 12+ modules, 4+ appendices, and multiple source files. As the project scales, handling and passing data throughout these modules has become more complex and sometimes bugs or changes became more difficult to trace and more time consuming. Consistent organization throughout modules along with clear communication of inputs and outputs are now essential to keeping the structure manageable and growing.
 ### Learning the Proper time to Document and Analyze Variables
 There is no argument that documentation and analysis are crucial elements of a project. Ultimately, I have spent hours documenting variables and structures that appeared complete, only to have to be completely rewritten or revised. I now document with simple headers and critical notes only, reserving more detailed documentation for when a module is closer to completion. This approach ensures I maintain clarity and speed throughout development.
-
-## Potential Applications
-- **Targeted deployment of firefighting and prevention resources** When conditions indicate a higher likelihood of large or damaging wildfires, agencies can focus personnel and equipment in the areas that need them most.
-- **Identifying high‑risk wildland–urban interface development zones** By estimating the potential financial impact of wildfire damage, proposed building sites can be compared and evaluated more effectively.
-
 
 ## Limitations and Disclaimer: 
 **Derivation of Target Values**:
