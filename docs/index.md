@@ -29,37 +29,68 @@ A machine learning analysis to predict wildfire ignition risk in California usin
 </figure>
 
 ## Data
+<details>
+  <summary><strong>Fire Incident Data</strong></summary>
 
-### Fire Incident Data
+- Wildfire damage (DINS) — CAL FIRE  
+  https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data
+- Wildfire incidents — CAL FIRE  
+  https://www.fire.ca.gov/incidents
 
- - **Wildfire damage data**: *CAL FIRE Damage Inspection (DINS)* <https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data>'
- - **Wildfire incidents**: *Calfire Incidents* <https://www.fire.ca.gov/incidents>
+</details>
 
-### Environmental Data
+<details>
+  <summary><strong>Environmental Data</strong></summary>
 
-- **Daily weather readings**: *gridMET* <https://www.climatologylab.org/gridmet.html>
-- **Land cover**: *USGS* <https://data.cnra.ca.gov/dataset/nlcd-2021-land-cover-california-subset/resource/6dab6b30-88ae-4aec-af8c-c22d52593c75>
-- **Daily NDVI rasters**: *NOAA* <https://doi.org/10.25921/gakh-st76>
+- Daily weather (gridMET) — Climatology Lab  
+  https://www.climatologylab.org/gridmet.html
+- Land cover (NLCD 2021) — USGS  
+  https://data.cnra.ca.gov/dataset/nlcd-2021-land-cover-california-subset/resource/6dab6b30-88ae-4aec-af8c-c22d52593c75
+- Daily NDVI — NOAA  
+  https://doi.org/10.25921/gakh-st76
 
-### California Demographic Data
+</details>
 
- - **Census tract and block data**: *U.S. Census Bureau, Department of Commerce* <https://catalog.data.gov/dataset/tiger-line-shapefile-2021-state-california-census-tracts>
- - **2024 American Community Survey 5 year median income data** *U.S. Census Bureau, Department of Commerce* <https://data.census.gov/table/ACSST1Y2024.S1903?q=California+Income&g=010XX00US$1500000_040XX00US06$1400000,06$1500000>
+<details>
+  <summary><strong>California Demographic Data</strong></summary>
 
-### Wildlife Urban Interface
+- Census tracts & blocks — U.S. Census Bureau  
+  https://catalog.data.gov/dataset/tiger-line-shapefile-2021-state-california-census-tracts
+- ACS 2024 median income — U.S. Census Bureau  
+  https://data.census.gov/table/ACSST1Y2024.S1903?q=California+Income&g=010XX00US$1500000_040XX00US06$1400000,06$1500000
 
-- **WUI layer**: *California Department of Forestry and Fire Protection* <https://gis.data.ca.gov/datasets/CALFIRE-Forestry::wildland-urban-interface/explore?location=34.403601%2C-118.894358%2C9.95>
-- **CDFW regions**: *California Department of Fish and Wildlife* <https://data.ca.gov/dataset/cdfw-regions>
-- **Eco regions** - *USDA Forestry Service* <https://data.fs.usda.gov/geodata/edw/datasets.php?dsetCategory=biota>
+</details>
 
-### Elevation
+<details>
+  <summary><strong>Wildland–Urban Interface (WUI)</strong></summary>
 
-- **1/3 arc-second DEMs**: *USGS National Map* <https://apps.nationalmap.gov/downloader/>
+- WUI layer — CAL FIRE  
+  https://gis.data.ca.gov/datasets/CALFIRE-Forestry::wildland-urban-interface/explore
+- CDFW regions — CA Dept. of Fish & Wildlife  
+  https://data.ca.gov/dataset/cdfw-regions
+- Eco‑regions — USDA Forest Service  
+  https://data.fs.usda.gov/geodata/edw/datasets.php?dsetCategory=biota
 
-### Infrastructure 
+</details>
 
-- **All public roads**: *CalTrans* <https://apps.nationalmap.gov/downloader/>
-- **Transmission lines**: *California Energy Commission (CEC)* <https://www.arcgis.com/home/item.html?id=aaa6321660eb40bbb55755d5cfb64107>
+<details>
+  <summary><strong>Elevation</strong></summary>
+
+- 1/3 arc‑second DEMs — USGS National Map  
+  https://apps.nationalmap.gov/downloader/
+
+</details>
+
+<details>
+  <summary><strong>Infrastructure</strong></summary>
+
+- Public roads — CalTrans / USGS National Map  
+  https://apps.nationalmap.gov/downloader/
+- Transmission lines — California Energy Commission  
+  https://www.arcgis.com/home/item.html?id=aaa6321660eb40bbb55755d5cfb64107
+
+</details>
+
 
 ## Methods
 ### Data Preparation
