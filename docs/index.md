@@ -144,40 +144,40 @@ A machine learning analysis to predict wildfire ignition risk in California usin
         <ul>
           <li>Data Exploration
             <ul>
-              <li><a href="../notebooks/01_Data_Exploration.ipynb">01_Data_Exploration.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/01_Data_Exploration.ipynb">01_Data_Exploration.ipynb</a></li>
             </ul>
           </li>
           <li>Data Joining & Preprocessing
             <ul>
-              <li><a href="../notebooks/02_A_Weather_Data_Merging.ipynb">02_A_Weather_Data_Merging.ipynb</a></li>
-              <li><a href="../notebooks/02_C_Spatial_Join_Fire_Data.ipynb">02_C_Spatial_Join_Fire_Data.ipynb</a></li>
-              <li><a href="../notebooks/03_Feature_Engineering.ipynb">03_Feature_Engineering.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/02_A_Weather_Data_Merging.ipynb">02_A_Weather_Data_Merging.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/02_C_Spatial_Join_Fire_Data.ipynb">02_C_Spatial_Join_Fire_Data.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/03_Feature_Engineering.ipynb">03_Feature_Engineering.ipynb</a></li>
             </ul>
           </li>
           <li>Feature Analysis
             <ul>
-              <li><a href="../notebooks/04_A_Feature_Distributions.ipynb">04_A_Feature_Distributions.ipynb</a></li>
-              <li><a href="../notebooks/04_B_Class_Conditional_Feature_Distributions.ipynb">04_B_Class_Conditional_Feature_Distributions.ipynb</a></li>
-              <li><a href="../notebooks/04_C_Feature_Correlation.ipynb">04_C_Feature_Correlation.ipynb</a></li>
-              <li><a href="../notebooks/05_Subset_and_Split.ipynb">05_Subset_and_Split.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/04_A_Feature_Distributions.ipynb">04_A_Feature_Distributions.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/04_B_Class_Conditional_Feature_Distributions.ipynb">04_B_Class_Conditional_Feature_Distributions.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/04_C_Feature_Correlation.ipynb">04_C_Feature_Correlation.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/05_Subset_and_Split.ipynb">05_Subset_and_Split.ipynb</a></li>
             </ul>
           </li>
           <li>Modeling & Tuning
             <ul>
-              <li><a href="../notebooks/06_A_Fire_Ignition_Tuning.ipynb">06_A_Fire_Ignition_Tuning.ipynb</a></li>
-              <li><a href="../notebooks/08_A_Fire_Ignition.ipynb">08_A_Fire_Ignition.ipynb</a></li>
-              <li><a href="../notebooks/08_B_Fire_Ignition_Feature_Ablation.ipynb">08_B_Fire_Ignition_Feature_Ablation.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/06_A_Fire_Ignition_Tuning.ipynb">06_A_Fire_Ignition_Tuning.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/08_A_Fire_Ignition.ipynb">08_A_Fire_Ignition.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/08_B_Fire_Ignition_Feature_Ablation.ipynb">08_B_Fire_Ignition_Feature_Ablation.ipynb</a></li>
             </ul>
           </li>
           <li>Appendices
             <ul>
-              <li><a href="../notebooks/A_Appendix_Sampling_Grids.ipynb">A_Appendix_Sampling_Grids.ipynb</a></li>
-              <li><a href="../notebooks/B_Appendix_Wildfires.ipynb">B_Appendix_Wildfires.ipynb</a></li>
-              <li><a href="../notebooks/C_Appendix_Gridmet_Combination.ipynb">C_Appendix_Gridmet_Combination.ipynb</a></li>
-              <li><a href="../notebooks/D_Appendix_Gridmet_Extraction.ipynb">D_Appendix_Gridmet_Extraction.ipynb</a></li>
-              <li><a href="../notebooks/E_Appendix_NDVI_Extraction.ipynb">E_Appendix_NDVI_Extraction.ipynb</a></li>
-              <li><a href="../notebooks/F_Appendix_Raster_Processing.ipynb">F_Appendix_Raster_Processing.ipynb</a></li>
-              <li><a href="../notebooks/G_Appendix_Raster_Combination.ipynb">G_Appendix_Raster_Combination.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/A_Appendix_Sampling_Grids.ipynb">A_Appendix_Sampling_Grids.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/B_Appendix_Wildfires.ipynb">B_Appendix_Wildfires.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/C_Appendix_Gridmet_Combination.ipynb">C_Appendix_Gridmet_Combination.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/D_Appendix_Gridmet_Extraction.ipynb">D_Appendix_Gridmet_Extraction.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/E_Appendix_NDVI_Extraction.ipynb">E_Appendix_NDVI_Extraction.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/F_Appendix_Raster_Processing.ipynb">F_Appendix_Raster_Processing.ipynb</a></li>
+              <li><a href="https://github.com/dustinlit/California-Wildfire-Ignition-ML-Modeling/blob/master/notebooks/G_Appendix_Raster_Combination.ipynb">G_Appendix_Raster_Combination.ipynb</a></li>
             </ul>
           </li>
         </ul>
@@ -186,6 +186,7 @@ A machine learning analysis to predict wildfire ignition risk in California usin
     </ul>
   </li>
 </ul>
+
 
 ## Next Steps / Potential Improvements
 - Hot Spot analysis of daily NDVI raster data (in process)
