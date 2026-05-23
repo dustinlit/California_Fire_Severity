@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#   Geospatial Machine Learning for Wildfire Ignition Risk in California
+#   Machine Learning Pipeline for Calculating Wildfire Ignition Risk in California
 
 ![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
 [![View Report](https://img.shields.io/badge/View-Full%20Report-blue?style=for-the-badge&logo=github)](https://dustinlit.github.io/California-Wildfire-Ignition-ML-Modeling/)
